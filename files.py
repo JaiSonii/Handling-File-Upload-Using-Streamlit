@@ -13,8 +13,7 @@ if dt is not None:
    csv=pd.read_csv(dt)
    st.table(csv.head())
    
-st.subheader("Dealing with images directly")
-st.image(r"C:\Users\jaius\OneDrive\Desktop\IMG_2401.JPG") 
+
 
 st.subheader("Dealing with images while uploading")
 img_file=st.file_uploader("Upload the Image file : " , type=["png" , "jpeg"])
